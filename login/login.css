@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: fit-content;
 }
 
 .login-page{
@@ -21,14 +22,51 @@
     }
 
     img{
-        margin: 50px 600px 20px 100px;
-        border: 2px solid red;
+        margin: 100px 600px 20px 100px;
+        /* border: 2px solid rgb(243,203,221); */
         border-radius: 1000px;
         width: 200px;
         height:200px;
     }
+}
+
+.input{
+    /* border: 2px solid rgb(243,203,221); */
+    /* border: 2px solid rgb(137,81,89); */
+    border-radius: 25px;
+    padding: 10px;
+    margin:0 0 15px 10px;
+    border-bottom: 2px solid rgb(243,203,221);
+    /* background-color: rgb(215, 197, 216); */
 
 
+    i{
+        color: gray;
+        font-size: 20px;
+    }
+
+    input{
+        /* color: rgb(215, 197, 216); */
+        /* background-color: rgb(215, 197, 216); */
+        font-size: 25px;
+        /* margin-left:120px ; */
+        padding:9px;
+        border: none;
+        /* border-bottom: 2px solid rgb(243,203,221); */
+        outline:none;
+
+        ::placeholder{
+            color: white;
+            opacity: 1;
+        }
+    }
+
+}
+
+.forgot-pass{
+    text-align: right;
+    margin-left: 230px;
+    text-decoration: none;
 }
 
 .login-wallpaper{

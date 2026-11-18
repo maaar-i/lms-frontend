@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-page{
+    background-color: rgb(255,255,255);
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+
+.login-form{
+    /* padding: 20px; */
+
+    h1{
+        margin: 10px 550px 20px 145px;
+        /* text-align: center; */
+        color: rgb(92,42,83);
+        
+    }
+
+    img{
+        margin: 50px 600px 20px 100px;
+        border: 2px solid red;
+        border-radius: 1000px;
+        width: 200px;
+        height:200px;
+    }
+
+
+}
+
+.login-wallpaper{
+    img{
+        width: 70vh;
+        height: 100vh;
+    }
+}

@@ -36,7 +36,8 @@
     border-radius: 25px;
     padding: 10px;
     margin:0 0 15px 10px;
-    border-bottom: 2px solid rgb(243,203,221);
+    /* border-bottom: 2px solid rgb(243,203,221); */
+    border-bottom: 2px solid gray;
     /* background-color: rgb(215, 197, 216); */
 
 
@@ -64,9 +65,11 @@
 }
 
 .forgot-pass{
-    text-align: right;
-    margin-left: 230px;
+    /* text-align: right; */
+    margin-left: 235px;
     text-decoration: none;
+    color: rgb(92,42,83);
+    font-weight: 600;
 }
 
 .login-wallpaper{
